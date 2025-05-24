@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>K's Portfolio | Home</title>
+</head>	
+        <body>
+          <header class="navbar">
+            <div class="logo"><a href="#">K's Crafts</a></div>
+            <ul class="links">      
+              <li><a href="#lp" class="active">HOME</a></li>
+              <li><a href="#abt">ABOUT</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#designs">DESIGNS</a></li>
+              <li><a href="#contact">CONTACT</a></li> 
+          </ul>
+          <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+        <div class="dropdown_menu">
+          <li><a href="#lp" class="active">HOME</a></li>
+          <li><a href="#abt">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#designs">DESIGNS</a></li>
+          <li><a href="#contact">CONTACT</a></li> 
+       </div>
+</header>
+
+<script>
+  const toggleBtn = document.querySelector('.toggle_btn')
+  const toggleBtnIcon = document.querySelector('.toggle_btn i')
+  const dropDownMenu = document.querySelector('.dropdown_menu')
+
+  toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open')
+    const isOpen = dropDownMenu.classList.contains('open')
+
+    toggleBtnIcon.classList = isOpen
+    ? 'fa-solid fa-xmark'
+    : 'fa-solid fa-bars'
+  }
+</script>  
+
+<main>
+          <element class="inter-inter">
+            <section class="lp" id="lp">
+                  <div class="home-content">
+                    <h3>Hello, It's Me<h3>
+                    <h1>Kristine Mae</h1>
+                    <h3>And I am a <span>Graphic Designer / UI Designer</span></h3>            
+                    <p class="font-semibold">I create graphics, and page layout design for a wide variety of products like <span class="sspan">PowerPoint <br> templates,
+                      mobile </span> or web user interface designs, and social media content. </p>
+               
+              <div class="social-media-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-viber"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+              <a href="#" class="btn">Download CV</a>
+              </div>
+
+              </section> 
+              </element>
+              </main>
+
+              <section class="abt" id="abt">
+
+                <div class="about-content">
+                  <div class="about-left">
+                   <h2>About Me</h2>
+
+                   <p class="font-semibold">I'm an aspiring graphic designer, committed, open to <br>
+                    learning, and seeking a chance to advance my career. <br>
+                    Able to handle tasks effectively, adjust to a fast-paced <br>
+                    setting, and produce results that stand out.</p>
+            
+                  <p>Name&emsp; :&emsp; Kristine Mae Villaluna</p>
+                  <p>Email&emsp; :&emsp; kristinemaevillaluna914@gmail.com</p>
+             
+            </div>                                                                        
+          </div>
+
+            <div class="about-right">
+              <h2>Experience</h2>
+
+              <div class="exp-row">
+               <div class="exp-column">
+
+                <div class="exp-box">
+                  <div class="exp-content">
+                    <div class="content">
+                      <div class="year"><i class="fa-solid fa-calendar"></i>&emsp;2023</div>
+                        <h6>Graphic Designer, and UI Designer - Medtax, Solutions, Inc</h6>
+                        <p class="font-semibold">&#8226; Designed a user interface for a mobile application with Figma.</p>
+                        <p class="font-semibold">&#8226; Collaborate with developers on the user interface design.</p>
+                        <p class="font-semibold">&#8226; Make video tutorials using Canva.</p>
+                      </div>
+                  </div>
+
+                  <div class="exp-content">
+                    <div class="content">
+                      <div class="year"><i class="fa-solid fa-calendar"></i>&emsp;2024</div>
+                        <h5>Graphic Designer, and UI Designer - Medtax, Solutions, Inc</h5>
+                        <p class="font-semibold">&#8226; Created motion graphics for video tutorials using Canva.</p>
+                        <p class="font-semibold">&#8226; Made graphical representations with PowerPoint.</p>
+                        <p class="font-semibold">&#8226; Designed mobile application user interface using Figma.</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <section class="skills" id="skills">
+
+            <div class="skills-content">
+              <div class="skills-left">
+                <h3>Technical Skills</h3>
+
+                  <div class="skill-bar">
+                    <div class="info">
+                      <h4>Figma</h4>
+                    </div>
+                    <div class="bar">
+                      <span class="skill-per figma" value="85%"></span>
+                    </div>
+                  </div>
+
+                  <div class="skill-bar">
+                    <div class="info">
+                      <h4>Photoshop</h4>
+                    </div>
+                    <div class="bar">
+                      <span class="skill-per photoshop" value="80%"></span>
+                    </div>
+                 </div>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <h4>Canva</h4>
+                  </div>
+                  <div class="bar">
+                    <span class="skill-per canva" value="88%"></span>
+                  </div>
+                </div>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <h4>PowerPoint</h4>
+                  </div>
+                  <div class="bar">
+                    <span class="skill-per powerpoint" value="89%"></span>
+                  </div>
+               </div>   
+            </div>  
+          
+
+              <div class="skills-right">
+                <h3>Soft Skills</h3>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <h4>Time Management</h4>
+                  </div>
+                  <div class="bar">
+                    <span class="skill-per tm" value="85%"></span>
+                  </div>
+                </div>
+            
+                <div class="skill-bar">
+                  <div class="info">
+                    <h4>Creativity</h4>
+                  </div>
+                  <div class="bar">
+                    <span class="skill-per creativity" value="90%"></span>
+                  </div>
+                </div>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <h4>Adaptability</h4>
+                  </div>
+                  <div class="bar">
+                    <span class="skill-per adaptability" value="87%"></span>
+                  </div>
+                </div>
+
+                <div class="skill-bar">
+                  <div class="info">
+                    <h4>Problem-solving</h4>
+                  </div>
+                  <div class="bar">
+                    <span class="skill-per problem-solving" value="82%"></span>
+                  </div>
+                </div> 
+              </div>
+          </section> 
+
+          <section class="designs" id="designs">
+              <h2>Designs</h2>
+              </div>
+
+              <div class="container">
+              <div class="img">
+                <img src="img1.svg" class="img1">
+              </div>
+              <div  class="img">
+                <img src="img2.svg" class="img2">
+              </div>
+              <div  class="img">
+                <img src="img3.svg" class="img3">
+              </div>
+
+            </div>
+
+          
+
+          </section>
+          <section class="contact" id="contact">
+            <div class="heading">
+            <h2>Contact Me</h2>
+              
+              <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input type="text" id="name" required><label for="Name">Name</label>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" id="email" required><label for="Email address">Email address</label> 
+                  </div>
+                </div>
+  
+                <div class="input-group">
+                  <input type="text" id="subject" required><label for="subject">Subject</label>
+                </div>
+                <div class="input-group">
+                  <textarea id="message" rows="10" required></textarea><label for="message">Your message</label>  
+                </div>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+
+          </section>
+
+
+          <footer>
+            <div class="container">
+              <div class="row">
+              <div class="footer-sec">
+                <h2>K's Crafts</h2>
+              <ul class="contact-info">
+                <li><a href="+63 915 379 2653"></a>+63 915 379 2653</li>
+                <li><a href="villaluna.kristine10@gmail.com"></a>villaluna.kristine10@gmail.com</li>
+                <li><p>San Jose Del Monte, Bulacan</p></li>
+              </ul>
+              </div>
+
+          <div class="footer-sec">
+            <h4>Socials</h4>
+            <ul class="footer-socials">
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-viber"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        
+          <div class="footer-sec">
+            <h3>Quick Links</h3>
+            <ul class="footer-quicklinks">
+              <li><a href="#lp">HOME</a></li>
+              <li><a href="#abt">ABOUT</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#designs">DESIGNS</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+
+        </div>
+        </div>
+        </footer>
+
+        <div class="copyrightText">
+          <p>Copyright 2025 K's Crafts. All Rights Reserved</p>
+        </div>
+
+        <script src="script.js"></script>
+        </body>
+      </html>
