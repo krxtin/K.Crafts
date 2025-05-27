@@ -632,7 +632,7 @@ span {
 }
 
 .about-right {
-  margin-top: -450px;
+  margin-top: -440px;
 }
 
 .about-content .about-left h2 {
@@ -1142,11 +1142,11 @@ span {
   }
 
   .skills-left {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .skills-right {
-    margin-top: -660px;
+    margin-top: 15px;
   }
 
   .skills-content {
