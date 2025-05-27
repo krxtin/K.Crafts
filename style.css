@@ -320,6 +320,9 @@ span {
   background-image:url("Group 170.svg");
   background-size: cover;
   background-position: center;
+  overflow-x: hidden;
+  position: relative;
+  z-index: -1;
 }
 
 .abt .exp-row {
