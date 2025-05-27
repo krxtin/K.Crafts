@@ -617,7 +617,6 @@ span {
 .abt {
   min-height: 147vh;
   flex-direction: column;
-  text-align: center;
   position: relative;
 }
 
