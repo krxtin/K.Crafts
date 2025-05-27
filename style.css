@@ -1282,6 +1282,10 @@ span {
 
 @media (max-width: 870px) {
 
+  .designs {
+    padding-top: 4rem;
+  }
+
   .container {
     padding-left: 200px;
     padding-right: 30px;
@@ -1381,6 +1385,36 @@ span {
   }
 }
 
+@media (max-width: 460px) {
+
+  .designs h2 {
+    margin-top: 1.5rem;
+    font-size: 27px;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+    font-weight: bold;
+    margin-top: -1rem;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+  }
+
+  .container {
+    padding-left: 120px;
+    padding-right: 80px;
+    padding-bottom: -10px;
+  }
+
+  .img {
+    grid-column: 1;
+    margin-bottom: -150px;
+  }
+
+  .img1,
+  .img3 {
+    height: 250px;
+  }
+}
 
 .contact {
   display: flex;
