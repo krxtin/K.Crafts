@@ -619,6 +619,7 @@ span {
   flex-direction: column;
   text-align: center;
   position: relative;
+  z-index: -1;
 }
 
 .about-content {
