@@ -1142,11 +1142,11 @@ span {
   }
 
   .skills-left {
-    margin-top: 7px;
+    margin-top: -1px;
   }
 
   .skills-right {
-    margin-top: 570px;
+    margin-top: -570px;
   }
 
   .skills-content {
