@@ -313,7 +313,7 @@ span {
   flex: 1 1 40rem;
   display: flex;
   min-height: 15vh;
-  align-items: center;
+  text-align: center;
   padding: 10.5%;
   height: 89vh;
   padding-top: 6rem;
