@@ -1137,7 +1137,6 @@ span {
   .skills {
     min-height: 137vh;
     grid-template-columns: 1fr;
-    min-height: 152vh;
     z-index: -1;
   }
 
