@@ -1135,7 +1135,7 @@ span {
 @media (max-width: 460px) {
 
   .skills {
-    min-height: 133vh;
+    min-height: 124vh;
     grid-template-columns: 1fr;
     z-index: -1;
   }
