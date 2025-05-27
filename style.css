@@ -1045,6 +1045,7 @@ span {
   .skills {
     grid-template-columns: 1fr;
     min-height: 152vh;
+    position: relative;
     z-index: -1;
   }
 
@@ -1141,11 +1142,11 @@ span {
   }
 
   .skills-left {
-    margin-top: -200px;
+    margin-top: 20px;
   }
 
   .skills-right {
-    margin-top: -650px;
+    margin-top: -660px;
   }
 
   .skills-content {
