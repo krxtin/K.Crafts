@@ -532,7 +532,7 @@ span {
 @media (max-width: 680px) {
 
 .abt {
-  min-height: 140vh;
+  min-height: 150vh;
   flex-direction: column;
   text-align: center;
   position: relative;
@@ -615,7 +615,7 @@ span {
 @media (max-width: 460px) {
 
 .abt {
-  min-height: 140vh;
+  min-height: 170vh;
   flex-direction: column;
   text-align: center;
   position: relative;
