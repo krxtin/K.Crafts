@@ -549,7 +549,7 @@ span {
 }
 
 .about-right {
-  margin-top: -445px;
+  margin-top: -450px;
 }
 
 .about-content .about-left h2 {
@@ -1044,7 +1044,7 @@ span {
 
   .skills {
     grid-template-columns: 1fr;
-    min-height: 140vh;
+    min-height: 152vh;
     position: relative;
     z-index: -1;
   }
@@ -1146,7 +1146,7 @@ span {
   }
 
   .skills-right {
-    margin-top: -570px;
+    margin-top: 570px;
   }
 
   .skills-content {
