@@ -320,6 +320,7 @@ span {
   background-image:url("Group 170.svg");
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 .abt .exp-row {
