@@ -320,7 +320,6 @@ span {
   background-image:url("Group 170.svg");
   background-size: cover;
   background-position: center;
-  z-index: -1;
 }
 
 .abt .exp-row {
@@ -532,7 +531,7 @@ span {
 @media (max-width: 680px) {
 
 .abt {
-  min-height: 150vh;
+  min-height: 100vh;
   flex-direction: column;
   text-align: center;
   position: relative;
@@ -546,7 +545,6 @@ span {
 
 .about-content .about-left {
   margin-left: 70px;
-  text-align: center;
 }
 
 .about-right {
@@ -612,11 +610,13 @@ span {
 }
 }
 
+
 @media (max-width: 460px) {
 
 .abt {
   min-height: 147vh;
   flex-direction: column;
+  text-align: center;
   position: relative;
 }
 
