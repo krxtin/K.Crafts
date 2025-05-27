@@ -1521,6 +1521,30 @@ textarea:valid~label {
 }
 
 @media (max-width: 1000px) {
+
+  .contact {
+    position: relative;
+    z-index: -1;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .heading h2 {
+    font-size: 25px;
+  }
+  .input-group {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 460px) {
+
+  .contact {
+    position: relative;
+    z-index: -1;
+  }
+
   .row {
     grid-template-columns: 1fr;
   }
