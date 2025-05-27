@@ -1044,7 +1044,7 @@ span {
 
   .skills {
     grid-template-columns: 1fr;
-    min-height: 152vh;
+    min-height: 140vh;
     position: relative;
     z-index: -1;
   }
@@ -1146,7 +1146,7 @@ span {
   }
 
   .skills-right {
-    margin-top: -600px;
+    margin-top: -570px;
   }
 
   .skills-content {
@@ -1474,6 +1474,12 @@ textarea:valid~label {
 }
 
 @media (max-width: 1570px) {
+
+  .contact {
+      position: relative;
+      z-index: -1;
+  }
+
   section {
     padding: 80px 3%;
     transition: .2s
@@ -1488,6 +1494,30 @@ textarea:valid~label {
 }
 
 @media (max-width: 1000px) {
+
+  .contact {
+    position: relative;
+    z-index: -1;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+  .heading h2 {
+    font-size: 25px;
+  }
+  .input-group {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 460px) {
+
+  .contact {
+    position: relative;
+    z-index: -1;
+  }
+
   .row {
     grid-template-columns: 1fr;
   }
