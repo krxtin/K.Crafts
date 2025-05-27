@@ -545,6 +545,7 @@ span {
 
 .about-content .about-left {
   margin-left: 70px;
+  text-align: center;
 }
 
 .about-right {
@@ -609,6 +610,89 @@ span {
   margin-bottom: 1rem;
 }
 }
+
+@media (max-width: 460px) {
+
+.abt {
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.about-content {
+  grid-template-columns: 1fr; 
+  grid-column: span 1;
+  margin-bottom: 50px;
+}
+
+.about-content .about-left {
+  margin-left: 40px;
+}
+
+.about-right {
+  margin-top: -450px;
+}
+
+.about-content .about-left h2 {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.about-content p {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.about-right h2 {
+  font-size: 27px;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.fa-calendar {
+  font-size: 12px;
+}
+
+.about-right h5 {
+  font-size: 16.2px;
+  margin-bottom: .5rem;
+  padding-bottom: 0.4rem;
+}
+
+.about-right h6 {
+  font-size: 16px;
+  margin-bottom: .5rem;
+  padding-bottom: 0.4rem;
+}
+
+.about-right p {
+  margin-bottom: .5rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.exp-column .exp-box {
+  border-left: 1px solid #9B934E;
+  margin-bottom: 1px;
+}
+
+.exp-box .exp-content {
+  display: inline-flex;
+  position: relative;
+  padding-left: 1.1rem;
+}
+
+.exp-content .content {
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+}
+
 
 .skills {
   flex: 1 1 40rem;
