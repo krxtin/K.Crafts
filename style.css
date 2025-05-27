@@ -312,7 +312,7 @@ span {
 .abt {
   flex: 1 1 40rem;
   display: flex;
-  min-height: 15vh;
+  min-height: 120vh;
   padding: 10.5%;
   height: 89vh;
   padding-top: 6rem;
