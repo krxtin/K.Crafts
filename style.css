@@ -622,11 +622,9 @@ span {
 }
 
 .about-left {
-  padding-left: -20px;
   width: 350px;
-  margin: auto;
+  margin: 50px 100px;
   text-align: left;
-  margin-right: 30px;
 }
 
 .about-right {
