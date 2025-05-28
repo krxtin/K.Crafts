@@ -612,13 +612,13 @@ span {
   min-height: 135vh;
   flex-direction: column;
   position: relative;
-  justify-content: left;
   z-index: -1;
 }
 
 .about-content {
   grid-template-columns: 1fr; 
   grid-column: span 1;
+  margin-top: -290px;
 }
 
 .about-left {
@@ -628,7 +628,7 @@ span {
 }
 
 .about-right {
-  margin-top: -420px;
+  margin-top: -320px;
 }
 
 .about-content .about-left h2 {
