@@ -609,7 +609,7 @@ span {
 @media (max-width: 460px) {
 
 .abt {
-  min-height: 125vh;
+  min-height: 115vh;
   flex-direction: column;
   position: relative;
   z-index: -1;
@@ -618,12 +618,12 @@ span {
 .about-content {
   grid-template-columns: 1fr; 
   grid-column: span 1;
-  margin-top: -200px;
+  margin-top: -187px;
 }
 
 .about-left {
   margin-left: 10px;
-  width: 350px;
+  width: 310px;
   margin: auto;
   text-align: left;
 }
