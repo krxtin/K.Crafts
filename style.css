@@ -623,14 +623,13 @@ span {
 
 .about-left {
   width: 350px;
-  margin-right: 370px;
-  margin-left: -150px;
+  justify-items: center;
   margin-top: 200px;
   text-align: left;
 }
 
 .about-right {
-  margin-top: -280px;
+  margin-top: -300px;
 }
 
 .about-content .about-left h2 {
