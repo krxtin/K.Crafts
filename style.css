@@ -624,11 +624,12 @@ span {
 .about-left {
   padding: 10;
   width: 350px;
+  margin: auto;
   text-align: left;
 }
 
 .about-right {
-  margin-top: -290px;
+  margin-top: -305px;
 }
 
 .about-content .about-left h2 {
