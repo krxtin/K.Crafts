@@ -623,7 +623,9 @@ span {
 
 .about-left {
   width: 350px;
-  margin-right: 60px;
+  margin: auto;
+  padding-left: 3px;
+  padding-right: 3px;
   text-align: left;
 }
 
