@@ -379,12 +379,6 @@ span {
   font-size: 14px;
 }
 
-.about-right h5 {
-  font-size: 17.2px;
-  margin-bottom: .5rem;
-  padding-bottom: 0.4rem;
-}
-
 .about-right h6 {
   font-size: 17px;
   margin-bottom: .5rem;
@@ -615,10 +609,10 @@ span {
 @media (max-width: 460px) {
 
 .abt {
-  min-height: 147vh;
+  min-height: 135vh;
   flex-direction: column;
-  text-align: center;
   position: relative;
+  justify-content: left;
   z-index: -1;
 }
 
@@ -627,8 +621,10 @@ span {
   grid-column: span 1;
 }
 
-.about-content .about-left {
+.about-left {
   margin-left: 50px;
+  width: 350px;
+  margin: auto;
 }
 
 .about-right {
