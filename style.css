@@ -618,18 +618,17 @@ span {
 .about-content {
   grid-template-columns: 1fr; 
   grid-column: span 1;
-  margin-top: -187px;
+  margin-top: -194px;
 }
 
 .about-left {
-  padding: 10;
   width: 350px;
   margin: auto;
   text-align: left;
 }
 
 .about-right {
-  margin-top: -305px;
+  margin-top: -327px;
 }
 
 .about-content .about-left h2 {
