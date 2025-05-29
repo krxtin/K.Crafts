@@ -1789,18 +1789,18 @@ footer .container {
 
   footer .footer-sec h2 {
     font-size: 22px;
-    margin-left: 4px;
+    margin-left: 5px;
   }
 
   footer .footer-sec h3 {
     font-size: 19px;
     margin-top: 5px;
-    margin-left: 130px;
+    margin-left: 90px;
   }
 
   footer .footer-sec h4 {
     font-size: 19px;
-    margin-left: 10px;
+    margin-left: -30px;
   }
 
   footer .contact-info li {
@@ -1812,11 +1812,11 @@ footer .container {
   }
 
   footer .footer-sec .footer-socials {
-    margin-left: 100px;
+    margin-left: 60px;
   }
   
   footer .footer-quicklinks li {
-    margin-left: -390px;
+    margin-left: -430px;
   }
   
   footer .container {
