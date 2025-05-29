@@ -612,7 +612,6 @@ span {
   min-height: 127vh;
   flex-direction: column;
   position: relative;
-  text-align: center;
   z-index: -1;
 }
 
@@ -623,8 +622,8 @@ span {
 }
 
 .about-left {
-  width: 310px;
-  display: inline-block;
+  width: 350px;
+  margin-left: -300px;
   margin-top: 200px;
   text-align: left;
 }
