@@ -1789,7 +1789,7 @@ footer .container {
 
   footer .footer-sec h2 {
     font-size: 22px;
-    margin-left: 20px;
+    margin-left: -1px;
   }
 
   footer .footer-sec h3 {
@@ -1804,7 +1804,7 @@ footer .container {
   }
 
   footer .contact-info li {
-    margin-left: -180px;
+    margin-left: -200px;
   }
 
   footer .footer-socials li {
