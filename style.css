@@ -1390,7 +1390,7 @@ span {
 @media (max-width: 460px) {
 
   .designs {
-
+     min-height: 167vh;
   }
 
   .designs h2 {
@@ -1409,6 +1409,7 @@ span {
     padding-left: 130px;
     padding-right: 80px;
     padding-bottom: -10px;
+    margin-bottom: -20px;
     width: 340px;
   }
 
@@ -1420,6 +1421,10 @@ span {
   .img1,
   .img3 {
     height: 250px;
+  }
+
+  .img2 {
+    margin-left: 4px;
   }
 }
 
