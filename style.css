@@ -1391,6 +1391,7 @@ span {
 
   .designs {
      min-height: 167vh;
+     margin-bottom: -7px;
   }
 
   .designs h2 {
@@ -1559,11 +1560,16 @@ textarea:valid~label {
     z-index: -1;
   }
 
+  .submit {
+    margin-bottom: 30px;
+  }
+
   .row {
     grid-template-columns: 1fr;
   }
   .heading h2 {
     font-size: 25px;
+    margin-bottom: 3rem;
   }
   .input-group {
     margin-bottom: 3rem;
@@ -1757,55 +1763,14 @@ footer .container {
 
   footer {
     padding: 3rem 10.5% 2rem;
+    text-align: center;
+  }
+
+  .footer-sec li {
+  font-size: 12.6px;
   }
   
   footer .row {
     flex-direction: column;
-  }
-
-  .footer-sec {
-    margin-bottom: -150px;
-  }
-
-  footer .footer-sec ul {
-    margin-left: 160px;
-  }
-  
-  footer .footer-sec .footer-quicklinks {
-    margin-left: 380px;
-    margin-bottom: 170px;
-  }
-
-  footer .footer-sec h2 {
-    margin-left: -70px;
-  }
-
-  footer .footer-sec h3 {
-    margin-top: 5px;
-    margin-left: 35px;
-  }
-
-  footer .footer-sec h4 {
-    margin-left: -37px;
-  }
-
-  footer .contact-info li {
-    margin-left: -230px;
-  }
-
-  footer .footer-socials li {
-    margin-left: -106.7px;
-  }
-
-  footer .footer-sec .footer-socials {
-    margin-left: 233px;
-  }
-  
-  footer .footer-quicklinks li {
-    margin-left: -343px;
-  }
-  
-  footer .container {
-    padding: 50px 3%;
   }
 }
