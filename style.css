@@ -619,11 +619,12 @@ span {
   grid-template-columns: 1fr; 
   grid-column: span 1;
   margin-top: -200px;
+  text-align: center;
 }
 
 .about-left {
   width: 350px;
-  justify-items: center;
+  display: inline-block;
   margin-top: 200px;
   text-align: left;
 }
