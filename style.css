@@ -1773,4 +1773,53 @@ footer .container {
   footer .row {
     flex-direction: column;
   }
+
+  .footer-sec {
+    margin-bottom: -150px;
+  }
+
+  footer .footer-sec ul {
+    margin-left: 160px;
+  }
+  
+  footer .footer-sec .footer-quicklinks {
+    margin-left: 380px;
+    margin-bottom: 170px;
+  }
+
+  footer .footer-sec h2 {
+    font-size: 22px;
+    margin-left: 40px;
+  }
+
+  footer .footer-sec h3 {
+    font-size: 19px;
+    margin-top: 5px;
+    margin-left: 130px;
+  }
+
+  footer .footer-sec h4 {
+    font-size: 19px;
+    margin-left: 10px;
+  }
+
+  footer .contact-info li {
+    margin-left: -160px;
+  }
+
+  footer .footer-socials li {
+    margin-left: -106.7px;
+  }
+
+  footer .footer-sec .footer-socials {
+    margin-left: 100px;
+  }
+  
+  footer .footer-quicklinks li {
+    margin-left: -390px;
+  }
+  
+  footer .container {
+    padding: 50px 3%;
+  }
 }
