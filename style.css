@@ -1134,7 +1134,7 @@ span {
 @media (max-width: 460px) {
 
   .skills {
-    min-height: 120vh;
+    min-height: 124vh;
     grid-template-columns: 1fr;
     z-index: -1;
   }
@@ -1282,13 +1282,14 @@ span {
 @media (max-width: 870px) {
 
   .designs {
-    padding-top: 4rem;
+    min-height: 160vh;
   }
 
   .container {
     padding-left: 200px;
     padding-right: 30px;
     padding-bottom: -10px;
+    width: 340px;
   }
 
   .img {
@@ -1385,6 +1386,10 @@ span {
 }
 
 @media (max-width: 460px) {
+
+  .designs {
+
+  }
 
   .designs h2 {
     margin-top: 1.5rem;
