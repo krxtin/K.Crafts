@@ -619,13 +619,14 @@ span {
   grid-template-columns: 1fr; 
   grid-column: span 1;
   margin-top: -200px;
+  justify-content: center;
 }
 
 .about-left {
   width: 350px;
-  margin-left: -300px;
   margin-top: 200px;
   text-align: left;
+  padding-left: 30px;
 }
 
 .about-right {
@@ -641,7 +642,7 @@ span {
 
 .about-content p {
   margin-bottom: 2rem;
-  font-size: 14px;
+  font-size: 12.6px;
   font-weight: 600;
   line-height: 1.5;
 }
