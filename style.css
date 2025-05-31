@@ -1556,12 +1556,12 @@ textarea:valid~label {
 @media (max-width: 460px) {
 
   .input-group {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 105%;
   }
 
   form {
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
 
