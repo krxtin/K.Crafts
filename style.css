@@ -1566,7 +1566,9 @@ textarea:valid~label {
 
   .row {
     grid-template-columns: 1fr;
+    flex-direction: column;
   }
+  
   .heading h2 {
     font-size: 25px;
     margin-bottom: 3rem;
