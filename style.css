@@ -1556,7 +1556,7 @@ textarea:valid~label {
 @media (max-width: 460px) {
 
   .input-group {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     width: 101%;
   }
 
@@ -1574,7 +1574,7 @@ textarea:valid~label {
   .row {
     grid-template-columns: 1fr;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-bottom: -1rem;
     justify-content: center;
     align-items: center;
   }
