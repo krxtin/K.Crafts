@@ -1560,11 +1560,6 @@ textarea:valid~label {
     width: 101%;
   }
 
-  form {
-    justify-content: center;
-    align-items: center;
-  }
-
   .contact {
     justify-content: center;
     align-items: center;
@@ -1579,6 +1574,9 @@ textarea:valid~label {
   .row {
     grid-template-columns: 1fr;
     flex-direction: column;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .heading h2 {
