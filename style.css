@@ -1556,7 +1556,7 @@ textarea:valid~label {
 @media (max-width: 460px) {
 
   .input-group {
-    gap: 0;
+    margin-bottom: 3rem;
     width: 105%;
   }
 
@@ -1581,9 +1581,6 @@ textarea:valid~label {
 
   .heading h2 {
     font-size: 25px;
-    margin-bottom: 3rem;
-  }
-  .input-group {
     margin-bottom: 3rem;
   }
 }
