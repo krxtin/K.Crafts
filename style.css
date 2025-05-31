@@ -1555,6 +1555,14 @@ textarea:valid~label {
 
 @media (max-width: 460px) {
 
+  .input-group {
+    margin-bottom: 30px;
+  }
+
+  .form {
+    justify-content: space-evenly;
+  }
+
   .contact {
     position: relative;
     z-index: -1;
@@ -1568,7 +1576,7 @@ textarea:valid~label {
     grid-template-columns: 1fr;
     flex-direction: column;
   }
-  
+
   .heading h2 {
     font-size: 25px;
     margin-bottom: 3rem;
