@@ -1556,7 +1556,7 @@ textarea:valid~label {
 @media (max-width: 460px) {
 
   .input-group {
-    gap: 30px;
+    gap: 0;
     width: 105%;
   }
 
@@ -1565,6 +1565,7 @@ textarea:valid~label {
   }
 
   .contact {
+    justify-content: center;
     position: relative;
     z-index: -1;
   }
