@@ -1574,7 +1574,7 @@ textarea:valid~label {
   .row {
     grid-template-columns: 1fr;
     flex-direction: column;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     justify-content: center;
     align-items: center;
   }
