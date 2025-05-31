@@ -1574,14 +1574,15 @@ textarea:valid~label {
   .row {
     grid-template-columns: 1fr;
     flex-direction: column;
-    margin-bottom: -1rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
     justify-content: center;
     align-items: center;
   }
 
   .heading h2 {
     font-size: 25px;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
 }
 
