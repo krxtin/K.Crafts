@@ -1327,42 +1327,10 @@ span {
 
 @media (max-width: 1090px) {
 
-    .designs {
-    min-height: 167vh;
-    margin-bottom: -7px;
+  .designs {
+     min-height: 167vh;
+     margin-bottom: -7px;
   }
-
-   .designs h2 {
-    margin-top: 6.5rem;
-    font-size: 27px;
-    margin-bottom: 1.5rem;
-    background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-    background-clip: text;
-    color: transparent;
-    text-align: center;
-  }
-
-  .container {
-    padding-left: 100px;
-    padding-right: -90px;
-    padding-bottom: -10px;
-    width: 600px;
-  }
-
-  .img {
-    grid-column: 1;
-    margin-bottom: -150px;
-  }
-
-  .img1,
-  .img3 {
-    height: 300px;
-  }
-}
-
-@media (max-width: 1000px) {
 
   .designs h2 {
     margin-top: 1.5rem;
@@ -1370,16 +1338,18 @@ span {
     margin-bottom: 1.5rem;
     background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
     font-weight: bold;
-    margin-bottom: 1.5rem;
+    margin-top: -1rem;
     background-clip: text;
     color: transparent;
     text-align: center;
   }
 
   .container {
-    padding-left: 90px;
-    padding-right: 50px;
-    padding-bottom: -10px;
+    padding-left: 130px;
+    padding-right: 80px;
+    padding-bottom: -40px;
+    margin-bottom: -40px;
+    width: 340px;
   }
 
   .img {
@@ -1390,6 +1360,56 @@ span {
   .img1,
   .img3 {
     height: 250px;
+  }
+
+  .img2 {
+    margin-left: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .designs {
+     min-height: 167vh;
+     margin-bottom: -7px;
+  }
+
+  .designs h2 {
+    margin-top: 1.5rem;
+    font-size: 27px;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+    font-weight: bold;
+    margin-top: -1rem;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+  }
+
+  .container {
+    padding-left: 130px;
+    padding-right: 80px;
+    padding-bottom: -40px;
+    margin-bottom: -40px;
+    width: 340px;
+  }
+
+  .img {
+    grid-column: 1;
+    margin-bottom: -150px;
+  }
+
+  .img1,
+  .img3 {
+    height: 250px;
+  }
+
+  .img2 {
+    margin-left: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
 }
 
