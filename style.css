@@ -1279,7 +1279,7 @@ span {
   scale: 1.05;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 1700px) {
 
   .designs {
     min-height: 164vh;
@@ -1306,7 +1306,7 @@ span {
 }
 
 
-@media (max-width: 760px) {
+@media (max-width: 1570px) {
 
   .container {
     padding-left: 150px;
@@ -1325,7 +1325,7 @@ span {
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 1090px) {
 
    .designs h2 {
     margin-top: 6.5rem;
@@ -1356,7 +1356,7 @@ span {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
 
   .designs h2 {
     margin-top: 1.5rem;
@@ -1575,7 +1575,7 @@ textarea:valid~label {
     grid-template-columns: 1fr;
     flex-direction: column;
     margin-top: -3.1rem;
-    margin-bottom: -0.7rem;
+    margin-bottom: -0.9rem;
     justify-content: center;
     align-items: center;
   }
