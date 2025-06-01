@@ -1227,6 +1227,7 @@ span {
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 10px;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   background-image: url("Group 1693.svg");
   background-size: 100% 100%;
@@ -1297,7 +1298,6 @@ span {
     height: 250px;
   }
 }
-
 
 @media (max-width: 760px) {
 
