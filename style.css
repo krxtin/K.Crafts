@@ -1227,7 +1227,6 @@ span {
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 10px;
-  padding-top: 1rem;
   padding-bottom: 5rem;
   background-image: url("Group 1693.svg");
   background-size: 100% 100%;
@@ -1282,15 +1281,22 @@ span {
 
 @media (max-width: 870px) {
 
+  .designs {
+    min-height: 164vh;
+  }
+
   .container {
     padding-left: 200px;
     padding-right: 30px;
     padding-bottom: -10px;
+    margin-bottom: -20px;
+    margin-top: -20px;
   }
 
   .img {
     grid-column: 1;
     margin-bottom: -150px;
+    width: 340px;
   }
 
   .img1,
@@ -1298,6 +1304,7 @@ span {
     height: 250px;
   }
 }
+
 
 @media (max-width: 760px) {
 
@@ -1400,8 +1407,8 @@ span {
   }
 
   .container {
-    padding-left: 130px;
-    padding-right: 80px;
+    padding-left: 150px;
+    padding-right: 100px;
     padding-bottom: -40px;
     margin-bottom: -40px;
     width: 340px;
