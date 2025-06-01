@@ -1281,22 +1281,15 @@ span {
 
 @media (max-width: 870px) {
 
-  .designs {
-    min-height: 164vh;
-  }
-
   .container {
     padding-left: 200px;
     padding-right: 30px;
     padding-bottom: -10px;
-    margin-bottom: -20px;
-    margin-top: -20px;
   }
 
   .img {
     grid-column: 1;
     margin-bottom: -150px;
-    width: 340px;
   }
 
   .img1,
