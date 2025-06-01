@@ -1279,7 +1279,7 @@ span {
   scale: 1.05;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 870px) {
 
   .designs {
     min-height: 164vh;
@@ -1306,7 +1306,7 @@ span {
 }
 
 
-@media (max-width: 1570px) {
+@media (max-width: 760px) {
 
   .container {
     padding-left: 150px;
@@ -1325,31 +1325,24 @@ span {
   }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 660px) {
 
-  .designs {
-     min-height: 100vh;
-     margin-bottom: -7px;
-  }
-
-  .designs h2 {
-    margin-top: 1.5rem;
+   .designs h2 {
+    margin-top: 6.5rem;
     font-size: 27px;
     margin-bottom: 1.5rem;
     background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
     font-weight: bold;
-    margin-top: -1rem;
+    margin-bottom: 1.5rem;
     background-clip: text;
     color: transparent;
     text-align: center;
   }
 
   .container {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: -40px;
-    margin-bottom: -40px;
-    width: 600px;
+    padding-left: 100px;
+    padding-right: -90px;
+    padding-bottom: -10px;
   }
 
   .img {
@@ -1360,21 +1353,10 @@ span {
   .img1,
   .img3 {
     height: 250px;
-  }
-
-  .img2 {
-    margin-left: 4px;
-    margin-top: 7px;
-    margin-bottom: 7px;
   }
 }
 
-@media (max-width: 1000px) {
-
-  .designs {
-     min-height: 167vh;
-     margin-bottom: -7px;
-  }
+@media (max-width: 550px) {
 
   .designs h2 {
     margin-top: 1.5rem;
@@ -1382,18 +1364,16 @@ span {
     margin-bottom: 1.5rem;
     background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
     font-weight: bold;
-    margin-top: -1rem;
+    margin-bottom: 1.5rem;
     background-clip: text;
     color: transparent;
     text-align: center;
   }
 
   .container {
-    padding-left: 130px;
-    padding-right: 80px;
-    padding-bottom: -40px;
-    margin-bottom: -40px;
-    width: 340px;
+    padding-left: 90px;
+    padding-right: 50px;
+    padding-bottom: -10px;
   }
 
   .img {
@@ -1404,12 +1384,6 @@ span {
   .img1,
   .img3 {
     height: 250px;
-  }
-
-  .img2 {
-    margin-left: 4px;
-    margin-top: 7px;
-    margin-bottom: 7px;
   }
 }
 
