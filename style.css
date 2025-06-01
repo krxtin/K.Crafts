@@ -1328,7 +1328,7 @@ span {
 @media (max-width: 1090px) {
 
   .designs {
-     min-height: 167vh;
+     min-height: 100vh;
      margin-bottom: -7px;
   }
 
