@@ -1468,6 +1468,10 @@ form {
   position: relative;
 }
 
+.input-group:focus {
+    border: 1px solid #fad7d7;
+}
+
 input, textarea {
   width: 101%;
   padding: 10px;
