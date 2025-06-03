@@ -1264,7 +1264,7 @@ span {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 1px linear-gradient(270deg, #F6DF13, #9B934E);
+  border: 1px solid #ffffff;
   border-radius: 12px;
   font-size: 19rem;
   transition: scale .2 ease;
@@ -1640,27 +1640,23 @@ footer .container {
   font-weight: bold;
   margin-bottom: 1.5rem;
   position: relative;
-  background-image: rgb(218, 213, 80);
-  background-clip: text;
-  color: transparent;
+  color: rgb(218, 213, 80);
 }
 
 .footer-sec h4 {
   width: fit-content;
   position: relative;
-  background-image: rgb(218, 213, 80);
+  color: rgb(218, 213, 80);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
   margin-top: none;
-  background-clip: text;
-  color: transparent;
 }
 
 .footer-sec h3 {
   width: fit-content;
   position: relative;
-  background-image: rgb(218, 213, 80);
+  color: rgb(218, 213, 80);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
