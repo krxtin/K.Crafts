@@ -1237,7 +1237,7 @@ span {
 }
 
 .designs h2 {
-  background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+  background-image: linear-gradient(270deg, #F6DF13, #9B934E);
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -1270,7 +1270,6 @@ span {
   transition: scale .2 ease;
   margin: 2rem 1.5rem 3rem 0;
   transition: .5s ease;
-  color: linear-gradient(90deg, #9B934E 0%, #F6DF13 100%);
 }
 
 .designs .img:hover {
@@ -1331,7 +1330,7 @@ span {
     margin-top: 6.5rem;
     font-size: 27px;
     margin-bottom: 1.5rem;
-    background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+    background-image: linear-gradient(270deg, #F6DF13, #9B934E);
     font-weight: bold;
     margin-bottom: 1.5rem;
     background-clip: text;
@@ -1362,7 +1361,7 @@ span {
     margin-top: 1.5rem;
     font-size: 27px;
     margin-bottom: 1.5rem;
-    background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+    background-image: linear-gradient(270deg, #F6DF13, #9B934E);
     font-weight: bold;
     margin-bottom: 1.5rem;
     background-clip: text;
@@ -1398,7 +1397,7 @@ span {
     margin-top: 1.5rem;
     font-size: 27px;
     margin-bottom: 1.5rem;
-    background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+    background-image: linear-gradient(270deg, #F6DF13, #9B934E);
     font-weight: bold;
     margin-top: -1rem;
     background-clip: text;
@@ -1447,7 +1446,7 @@ span {
 }
 
 .heading h2 {
-  background-image: linear-gradient(7deg, #9B934E 0%, #F6DF13 100%);
+  background-image: linear-gradient(270deg, #F6DF13, #9B934E);
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -1641,7 +1640,7 @@ footer .container {
   font-weight: bold;
   margin-bottom: 1.5rem;
   position: relative;
-  background-image: linear-gradient(270deg, #9B934E, #F6DF13);
+  background-image: linear-gradient(270deg, #F6DF13, #9B934E);
   background-clip: text;
   color: transparent;
 }
@@ -1649,7 +1648,7 @@ footer .container {
 .footer-sec h4 {
   width: fit-content;
   position: relative;
-  background-image: linear-gradient(270deg, #9B934E, #F6DF13);
+  background-image: linear-gradient(270deg, #F6DF13, #9B934E);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -1661,7 +1660,7 @@ footer .container {
 .footer-sec h3 {
   width: fit-content;
   position: relative;
-  background-image: linear-gradient(270deg, #9B934E, #F6DF13);
+  background-image: linear-gradient(270deg, #F6DF13, #9B934E);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
