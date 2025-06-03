@@ -50,8 +50,8 @@ a {
   justify-content: space-between;
   background-color: #fff0f0;
   background: transparent;
+  z-index: 1000;
 }
-
 
 .navbar .logo a {
   font-size: 1.5rem;
@@ -564,7 +564,6 @@ span {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
 }
-
 
 .fa-calendar {
   font-size: 12px;
@@ -1465,6 +1464,7 @@ form {
 .input-group {
   margin-bottom: 30px;
   position: relative;
+  z-index: -1;
 }
 
 .contact-inputs:focus {
@@ -1660,9 +1660,6 @@ footer .container {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  margin-top: -40px;
-  background-clip: text;
-  color: transparent;
 }
 
 .footer-sec li {
