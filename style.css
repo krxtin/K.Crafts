@@ -1638,7 +1638,7 @@ footer .container {
   font-weight: bold;
   margin-bottom: 1.5rem;
   position: relative;
-  background-image: linear-gradient(#9B934E, #F6DF13);
+  background-image: linear-gradient(270deg, #9B934E, #F6DF13);
   background-clip: text;
   color: transparent;
 }
@@ -1646,7 +1646,7 @@ footer .container {
 .footer-sec h4 {
   width: fit-content;
   position: relative;
-  background-image: linear-gradient(#9B934E, #F6DF13);
+  background-image: linear-gradient(270deg, #9B934E, #F6DF13);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
@@ -1658,7 +1658,7 @@ footer .container {
 .footer-sec h3 {
   width: fit-content;
   position: relative;
-  background-image: linear-gradient(#9B934E, #F6DF13);
+  background-image: linear-gradient(270deg, #9B934E, #F6DF13);
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
