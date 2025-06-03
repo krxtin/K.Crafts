@@ -1369,8 +1369,8 @@ span {
   }
 
   .container {
-    padding-left: 90px;
-    padding-right: 50px;
+    padding-left: 80px;
+    padding-right: 40px;
     padding-bottom: -10px;
   }
 
@@ -1448,7 +1448,7 @@ span {
   background-image: linear-gradient(270deg, #F6DF13, #9B934E);
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   background-clip: text;
   color: transparent;
   text-align: center;
@@ -1659,7 +1659,7 @@ footer .container {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 1.5rem;
-  margin-top: -15px;
+  margin-top: -20px;
 }
 
 .footer-sec li {
