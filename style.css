@@ -141,9 +141,9 @@ section {
   padding-top: 10rem;
   padding-bottom: 5rem;
   padding: 10.5%;
-  height: 100dvh;
+  height: 100vh;
   background-image:url("Group 151.svg");
-  max-width: 100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -247,6 +247,14 @@ span {
 }
 }
 
+@media (max-width: 460px) {
+
+  .lp {
+  height: 100vh;
+  width: 100%;
+}
+}
+
 @media (max-width: 870px) {
 
 .section {
@@ -310,6 +318,7 @@ span {
   font-size: 14px;
 }
 }
+
 
 .abt {
   flex: 1 1 40rem;
@@ -607,7 +616,7 @@ span {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
 
 .abt {
   min-height: 107vh;
