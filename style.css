@@ -143,6 +143,7 @@ section {
   padding: 10.5%;
   height: 100vh;
   background-image:url("Group 151.svg");
+  max-width: 100%;
   background-size: cover;
   background-position: center;
 }
