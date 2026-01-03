@@ -251,17 +251,10 @@ span {
 
   .lp {
     height: 100vh;
-    max-width: 88%;
+    max-width: 100%%;
   }
 }
 
-@media (max-width: 460px) {
-
-  .lp {
-  height: 100vh;
-  width: 100%;
-}
-}
 
 @media (max-width: 870px) {
 
