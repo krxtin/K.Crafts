@@ -247,6 +247,14 @@ span {
 }
 }
 
+@media (max-width: 680px) {
+
+  .lp {
+    height: 100vh;
+    max-width: 88%;
+  }
+}
+
 @media (max-width: 460px) {
 
   .lp {
