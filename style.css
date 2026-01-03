@@ -250,7 +250,7 @@ span {
 @media (max-width: 680px) {
 
   .lp {
-    height: 100vh;
+    height: 80vh;
     max-width: 100%;
   }
 }
